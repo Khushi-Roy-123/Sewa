@@ -7,7 +7,8 @@ export default defineConfig(({ mode }) => {
     return {
       server: {
         port: 3000,
-        host: '0.0.0.0','sewa-dbvn.onrender.com',
+        host: '0.0.0.0',
+        allowedHosts: ['sewa-dbvn.onrender.com']
       },
       plugins: [react()],
       define: {
