@@ -1,0 +1,8 @@
+{
+  "name": "Sewa",
+  "description": "A foundational React project for a healthcare companion app, featuring multilingual user login/registration, a clean user interface, hash-based routing, and placeholder pages for key health management features.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
